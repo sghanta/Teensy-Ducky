@@ -1,17 +1,5 @@
 /*
-Description:
-  - This script turns the Teensy into a keyboard (HID) that uses Ducky Script to execute commands
-Requirements:
-  - Set USB Type to Keyboard on Arduino IDE
-Instructions:
-  1) Edit payload_lines[] with payload commands
-  2) If using powershell,
-    - Set DEFAULT_DELAY to 0
-    - This will use scroll lock to wait until powershell script is done executing before continuing the rest of the commands in payload
-References:
-  - https://www.pjrc.com/teensy/td_keyboard.html
-  - https://docs.hak5.org/hc/en-us/articles/360010555153-Ducky-Script-the-USB-Rubber-Ducky-language
-  - https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript
+Example of a powershell script using the scrolllock delay detecting option (DEFAULT_DELAY 0)
 */
 
 // Wait time between commands
